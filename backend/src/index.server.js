@@ -27,7 +27,7 @@ app.use('/api',initialDataRoutes);
 
 
 // Mongo-DB Connection
-url= "mongodb+srv://root:toor@cluster0.qlb6s.mongodb.net/petshop?retryWrites=true&w=majority";
+url= "";
 
 mongoose.connect(url,{
     useNewUrlParser : true,
